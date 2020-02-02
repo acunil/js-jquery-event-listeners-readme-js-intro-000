@@ -7,6 +7,13 @@ function frameIt() {
   $("img").on("load", () => $("img").addClass('tasty'));
 }
 
+function pressIt() {
+  $("input").on("keydown", (key) => {
+    if (key.key === "g"){
+      alert("G was pressed");
+    }
+  });
+}
 
 $(document).ready(function(){
 
