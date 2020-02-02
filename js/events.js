@@ -10,7 +10,7 @@ function frameIt() {
 function pressIt() {
   $("input").on("keydown", (key) => {
     if (key.key === "g"){
-      alert("G was pressed");
+      alert
     }
   });
 }
